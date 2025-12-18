@@ -1,19 +1,19 @@
 <script>
     const cards = [
         {
-            title: "AI Assistant",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-            color: "bg-fabric-dark"
+            title: "AI Communication Agents",
+            image: "/generated/image-healthcare-technology-dashboard-on-compu-1766064276240-5.webp",
+            color: "bg-gray-900"
         },
         {
-            title: "Provider Directory",
-            image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
-            color: "bg-fabric-green"
+            title: "RPA Integration",
+            image: "/generated/image-healthcare-technology-dashboard-on-compu-1766064276240-5.webp",
+            color: "bg-primary-600"
         },
         {
-            title: "Engagement & Pathways",
-            image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
-            color: "bg-fabric-blue"
+            title: "Patient Engagement",
+            image: "/generated/image-patient-using-smartphone-to-book-medical-1766064269639-2.webp",
+            color: "bg-primary-700"
         }
     ];
 </script>
@@ -22,10 +22,10 @@
     <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
         <div class="max-w-2xl">
             <h2 class="text-4xl md:text-5xl font-serif mb-6 leading-tight">
-                Meet our end-to-end care access platform and virtual care services
+                The complete clinic automation platform
             </h2>
             <p class="text-gray-600 text-lg">
-                Fabric creates operational and clinical efficiency that expands access while providing consumer-grade care experiences that drive better outcomes and savings for health systems, employers, brokers, and health plans alike.
+                HeartKraft combines AI agents and RPA to automate patient communication, appointment scheduling, insurance verification, and more. Works seamlessly with your existing EHR system.
             </p>
         </div>
         <div class="flex gap-4">
@@ -44,7 +44,7 @@
                 <div class="relative h-64 overflow-hidden">
                     <img src={card.image} alt={card.title} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
-                <div class="{card.color === 'bg-fabric-blue' ? 'bg-blue-100 text-fabric-dark' : card.color === 'bg-fabric-green' ? 'bg-[#9BB0A5] text-white' : 'bg-[#0B1221] text-white'} p-6 h-32 flex items-end">
+                <div class="{card.color} p-6 h-32 flex items-end text-white">
                     <h3 class="text-xl font-medium">{card.title}</h3>
                 </div>
             </div>
